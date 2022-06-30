@@ -1,0 +1,541 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    --white:#fff;
+    --jamjuree-font:'Bai Jamjuree', sans-serif;
+}
+
+body{
+    font-family: var(--jamjuree-font);
+}
+
+.container{
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    text-align: center;
+     /*padding: 0 20px;  */
+   /* width:100%;*/
+   
+
+}
+
+.logo{
+    padding:90px;
+}
+.logo img{
+    width:150px;
+}
+
+.title h2{
+    color: var(--dark-grayish-blue);
+    font-size: 2.2rem;
+    /*padding: 0 90px 10px; */
+    padding: 0 20px;
+    width: 100%; /*will delete*/
+    font-weight: 600;
+
+}
+
+.title p{
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    /*padding: 20px 22px;*/ padding:20px 41px;
+   
+    
+}
+
+.download-btn .ios-download,.mac-download{
+    display: block;
+    padding:20px 10px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: none;
+    color:var(--white);
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    width:310px;
+    
+}
+.ios-download{
+    background-color: var(--strong-cyan);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.mac-download{
+    background-color: var(--light-blue);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-bottom: 150px;
+}
+
+.ios-download:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.mac-download:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+img{  /*for all images*/
+    width:300px;
+}
+
+
+/*text part with computer screen*/
+article img{
+    padding: 40px 0;
+}
+
+article h2{
+    color:var(--dark-grayish-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding:20px;
+}
+
+article p{
+    /*padding: 0  25px  30px; */  padding:0 40px 30px;
+    line-height: 25px;
+    font-weight: 400;
+    color:var(--grayish-blue);
+    
+}
+/*text part with computer screen end*/
+
+/*part with mobile and tablet start*/
+
+.title-mob-tab h2{
+   /* padding: 100px 35px 20px;*/ padding: 100px 55px 20px;
+    color: var(--dark-grayish-blue);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title-mob-tab p{
+    color: var(--grayish-blue);
+    /*padding:0 15px 35px;*/ padding: 0 40px 35px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/*3 icons with info */
+.imgs-titles img{
+     width:60px;
+     padding:40px 0 30px;
+}
+
+.imgs-titles h2{
+     color: var(--dark-grayish-blue);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.imgs-titles p{
+    color: var(--grayish-blue);
+     /*padding: 0  15px 40px;*/ padding: 0 35px 50px;
+     font-weight: 400;
+}
+
+/*companies logo*/
+.companies-logos img{
+     width:210px;
+    display:flex;
+    padding:40px;
+}
+
+.title-last h2{   
+    color: var(--dark-grayish-blue);
+    padding:100px 35px 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title-last p{
+    color: var(--grayish-blue);
+    padding:0 23px 35px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/*footer info*/
+
+ .info-footer{
+ background-color:hsl(201, 11%, 66%, .1);
+   width:100%; 
+   padding-top: 40px;
+}
+.info-footer img{
+    width:50px;
+}
+/*
+.info-footer .info-links ul {
+     list-style: none;  
+}
+
+.info-footer .info-links ul a{
+   color: var(--dark-grayish-blue);
+    text-decoration: none;
+    padding:30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+*/
+.info-footer .info-links a{
+    color: var(--dark-grayish-blue);
+   display:grid;
+   padding: 20px;
+   font-size: 1.5rem;
+   text-decoration: none;
+}
+
+.info-footer .info-links a:hover{
+    cursor: pointer;
+    color:var(--strong-cyan)
+}
+
+.info-footer .social-icons i{
+     font-size: 2rem;
+    padding: 20px;
+    color: var(--dark-grayish-blue)    
+}
+
+.info-footer .social-icons i:hover{
+    color: var(--strong-cyan);
+}
+
+.Coded-by{
+    padding:15px 60px;
+    text-align:center;
+    line-height: 30px;
+}
+
+/*media query*/
+
+@media screen and (min-width:688px) {
+     .container .logo{
+        background-image: url(./images/bg-header-desktop.png);
+     }
+
+     .title p{
+
+       width:650px;
+     }
+
+     #title2 p{
+        width:690px;
+     }
+
+
+     .download-btn .ios-download{
+        float: left;
+        max-width: 200px;
+        padding:15px 25px;
+        font-size: 1rem;
+        font-weight: 400;
+     }
+     .download-btn .mac-download{
+        float: right;
+        max-width: 200px;
+        margin-left:20px;
+        font-size: 1rem;
+        font-weight: 400;
+        padding:15px 25px;
+     }
+
+     /*screen and info*/
+     
+    /*this part work with position but its not as it must be so ll try 2 do another way*/ 
+     /*article img{
+   
+        float: left;
+        width:500px;
+       
+       
+        position: absolute;
+        left: 0;
+      
+     }
+
+    article .title-comp-img{
+        background-color: yellow;
+        text-align: left;
+        max-width:700px;
+        padding-left:200px;
+        margin-left: 180px;
+        
+    }*/
+  
+
+    /*this part works good for me */
+
+/*
+  article{
+    display: flex;
+  }
+  article img{
+    width:600px;
+    margin-right: 50px;
+  }
+
+  article .title-comp-img{
+    text-align: left;
+    /*padding-top: 50px;*/
+   /* padding:50px 80px 0;*/
+/*    max-width: 440px;
+  }
+
+  article .title-comp-img h2{
+    padding-left: 35px;
+  }
+
+  */
+
+
+
+
+
+  /*ANOTHER TRY TO ARTICLE PART to make it look better*/
+  article{
+    display:flex;
+  }
+  article .comp-img{
+    width:50%;
+    overflow: hidden;  /*this will make the image with cut on it*/
+  }
+
+  article .comp-img img{
+    display:block;
+    width:105%;
+    height:auto;
+    transform: translate(-5%);  /*this will flip the image and make the cut from the other side*/
+  }
+
+  article .title-comp-img{
+    width:50%;
+    padding:70px 10px;
+  }
+
+  /*article ends here*/
+
+    .mob-tab-img img{
+        width:700px;
+        padding-top:30px;
+    }
+
+    .title-mob-tab p{
+        max-width:700px;
+        
+    }
+
+
+    .imgs-titles{
+        display: flex;
+        padding:40px;
+        margin-right: 0px;;
+        max-width:70%;
+       
+    }
+
+    .imgs-titles p{
+        padding:0 30px;
+    }
+
+    .imgs-titles .third-img-title{
+       margin: 15px;
+    }
+
+    .companies-logos{
+        display: flex;
+    }
+    .companies-logos .comp-logos{
+        max-width:/*200px*/   170px;
+    }
+
+    .title-last p{
+       max-width:650px;
+       
+    }
+
+    .info-footer{
+       
+    }
+/*   wil remove this for now and will see if i need 2 move the logo like that or not
+    .info-footer .logo-footer{
+       
+        position: absolute;
+        left:40px;
+        bottom: 5px;
+    }*/
+
+    .info-footer .info-links ul a li {
+      /*  display: inline;
+        max-width:300px;
+        color:red;*/
+     
+    }
+
+    /*.info-footer .info-links ul {
+        color:blueviolet;
+        max-width: 400px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(50px, 50px));
+        grid-gap:20px 70px;
+       
+       font-size: 1rem;
+      
+      
+    }*/
+/*
+    .info-footer ul  {
+        color:red;
+        font-size: 1rem;
+        display:grid;
+        grid-template-columns: repeat(3, minmax(120px, 120px));
+        column-gap:20px  50px;
+        position: absolute;
+    }
+
+    
+*/
+
+
+
+/*
+another try
+.info-footer .info-links a{
+    color:red;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 120px));
+
+}
+
+
+    .info-footer .social-icons{
+        position: absolute;
+        right:10px;
+        bottom:5px;
+    }
+    */
+
+    /*another 3rd try*/
+/*
+    .info-footer{
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) 4fr minmax(170px, 1fr);
+    }
+
+   
+    .info-footer .info-links {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(120px, 120px));
+        row-gap: 20px;
+        text-align: center;
+    }
+    
+    .info-footer .info-links a{
+       
+    }*/
+
+
+
+/*4th try*/
+/*
+.info-footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.logo-footer{
+    grid-column: 1/2;
+    width:20%;
+}
+.info-links {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   width:70%;
+   font-size: 1rem;
+   background-color: red;
+}*/
+
+
+/*5th try*/
+
+.info-footer{
+    padding:5px;
+    display: grid;
+    grid-template-columns: minmax(150px , 1fr) 4fr minmax(170px, 1fr); /*this will make social icons go 2 the right up*/
+
+}
+/*
+.info-footer .logo-footer{
+    width:55px;
+    margin:  60px ;
+}
+.info-footer .info-links{
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 120px));
+    gap: 20px 170px;
+    margin:5px;
+}
+
+.info-footer .info-links a{
+  
+    font-size: 1rem;
+}
+
+.info-footer .social-icons{
+    margin:50px 0;
+  
+}*/
+
+/*another try :) */
+
+.info-footer .logo-footer{
+    margin: 50px;
+    width:40px;
+}
+
+.info-links{
+    max-width: 600px;
+    display:grid;
+    grid-template-columns: repeat(3, minmax(170px, 170px));
+   /* gap: 5px;*/
+   grid-gap:20px 70px;
+}
+
+.info-footer .info-links a{
+    font-size:1rem;
+    font-weight: 400;
+}
+
+.info-footer .social-icons i{
+font-size:1.5rem;  
+margin-top: 40px;
+}
+
+
+}

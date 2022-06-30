@@ -312,24 +312,20 @@ article p{
 
   */
 
-
-
-
-
-  /*ANOTHER TRY TO ARTICLE PART to make it look better*/
+ /*ANOTHER TRY TO ARTICLE PART to make it look better*/
   article{
     display:flex;
   }
   article .comp-img{
     width:50%;
-    overflow: hidden;  /*this will make the image with cut on it*/
+    overflow: hidden;  /*ll make cut*/
   }
 
   article .comp-img img{
     display:block;
     width:105%;
     height:auto;
-    transform: translate(-5%);  /*this will flip the image and make the cut from the other side*/
+    transform: translate(-5%);  /*cut flip*/
   }
 
   article .title-comp-img{
@@ -378,110 +374,6 @@ article p{
        
     }
 
-    .info-footer{
-       
-    }
-/*   wil remove this for now and will see if i need 2 move the logo like that or not
-    .info-footer .logo-footer{
-       
-        position: absolute;
-        left:40px;
-        bottom: 5px;
-    }*/
-
-    .info-footer .info-links ul a li {
-      /*  display: inline;
-        max-width:300px;
-        color:red;*/
-     
-    }
-
-    /*.info-footer .info-links ul {
-        color:blueviolet;
-        max-width: 400px;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(50px, 50px));
-        grid-gap:20px 70px;
-       
-       font-size: 1rem;
-      
-      
-    }*/
-/*
-    .info-footer ul  {
-        color:red;
-        font-size: 1rem;
-        display:grid;
-        grid-template-columns: repeat(3, minmax(120px, 120px));
-        column-gap:20px  50px;
-        position: absolute;
-    }
-
-    
-*/
-
-
-
-/*
-another try
-.info-footer .info-links a{
-    color:red;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(120px, 120px));
-
-}
-
-
-    .info-footer .social-icons{
-        position: absolute;
-        right:10px;
-        bottom:5px;
-    }
-    */
-
-    /*another 3rd try*/
-/*
-    .info-footer{
-      display: grid;
-      grid-template-columns: minmax(150px, 1fr) 4fr minmax(170px, 1fr);
-    }
-
-   
-    .info-footer .info-links {
-        max-width: 500px;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(120px, 120px));
-        row-gap: 20px;
-        text-align: center;
-    }
-    
-    .info-footer .info-links a{
-       
-    }*/
-
-
-
-/*4th try*/
-/*
-.info-footer{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.logo-footer{
-    grid-column: 1/2;
-    width:20%;
-}
-.info-links {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   width:70%;
-   font-size: 1rem;
-   background-color: red;
-}*/
-
-
-/*5th try*/
 
 .info-footer{
     padding:5px;
@@ -489,30 +381,8 @@ another try
     grid-template-columns: minmax(150px , 1fr) 4fr minmax(170px, 1fr); /*this will make social icons go 2 the right up*/
 
 }
-/*
-.info-footer .logo-footer{
-    width:55px;
-    margin:  60px ;
-}
-.info-footer .info-links{
-    max-width: 500px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(120px, 120px));
-    gap: 20px 170px;
-    margin:5px;
-}
 
-.info-footer .info-links a{
-  
-    font-size: 1rem;
-}
 
-.info-footer .social-icons{
-    margin:50px 0;
-  
-}*/
-
-/*another try :) */
 
 .info-footer .logo-footer{
     margin: 50px;
